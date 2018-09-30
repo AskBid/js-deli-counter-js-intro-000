@@ -19,7 +19,7 @@ function currentLine(line) {
             // list.push(` ${i}. ${line[i]},`)
             list += ` ${i+1}. ${line[i]},`;
         };
-        return `The line is currently: ${list}`;
+        return `The line is currently:${list}`;
     } else {
         return "The line is currently empty.";
     }
