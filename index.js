@@ -17,7 +17,7 @@ function currentLine(line) {
         var list;
         for (i = 0, i < line.length, i++) {
             // list.push(` ${i}. ${line[i]},`)
-            list += ` ${i}. ${line[i]},`
+            list += ` ${i}. ${line[i]},`;
         };
         return `Currently serving ${line.shift()}.`;
     } else {
