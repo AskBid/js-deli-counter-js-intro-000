@@ -18,7 +18,7 @@ function currentLine(line) {
         for (i = 0; i < line.length; i++) {
             // list.push(` ${i}. ${line[i]},`)
             list += ` ${i+1}. ${line[i]}`;
-            if (i <= line.length - 1) {
+            if (i <= line.length - 2) {
                 list += ','
             }
         };
