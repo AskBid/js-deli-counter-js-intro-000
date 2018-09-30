@@ -13,14 +13,14 @@ function nowServing(line) {
 
 function currentLine(line) {
     if (line.length > 0) {
-        var i
-        var list
+        var i;
+        var list;
         for (i = 0, i < line.length, i++) {
             // list.push(` ${i}. ${line[i]},`)
             list += ` ${i}. ${line[i]},`
-        }
-        return `Currently serving ${line.shift()}.`
+        };
+        return `Currently serving ${line.shift()}.`;
     } else {
-        return "The line is currently empty."
+        return "The line is currently empty.";
     }
 }
